@@ -5,4 +5,6 @@ public class Book {
     //i hate this
 
     String name;
+
+    String countriesAvailable;
 }
