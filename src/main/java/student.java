@@ -6,4 +6,9 @@ public class student {
     private LocalDateTime borrowLength;
 
 
+
+    student(int id){
+        this.id=id;
+
+    }
 }
