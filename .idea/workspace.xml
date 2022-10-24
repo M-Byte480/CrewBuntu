@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="387e1423-c36a-406a-aad1-8c2b3a5262f5" name="Changes" comment="Updated testing dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <workItem from="1666456293112" duration="117000" />
       <workItem from="1666530973609" duration="1750000" />
       <workItem from="1666599240139" duration="853000" />
-      <workItem from="1666607255000" duration="473000" />
+      <workItem from="1666607255000" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="Created files">
       <created>1666371469685</created>
@@ -110,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666607543049</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated testing dependencies">
+      <created>1666612278635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666612278635</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated testing dependencies">
+      <created>1666612426867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666612426867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
