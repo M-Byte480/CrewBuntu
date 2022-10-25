@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.*;
 import java.util.Date;
 
-public class Book {
+public class Book implements Comparator<Book> {
     private String name;
     private String author;
     private
@@ -25,8 +26,8 @@ public class Book {
         this.bibliography = bibliography;
     }
 
-    public int compareTo(Book that){
-
+    @Override
+    public int compare(Book book, Book t1) {
         return 0;
     }
 
@@ -85,4 +86,7 @@ public class Book {
     public void setBibliography(ArrayList<String> bibliography) {
         this.bibliography = bibliography;
     }
+
+
+
 }
