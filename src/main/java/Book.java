@@ -15,6 +15,7 @@ public class Book implements Comparator<Book> {
     String countriesAvailable;
     private
     ArrayList<String> bibliography;
+    private boolean isAvailable;
 
     public Book(String name, String author, Date published, ArrayList<String> genres, ArrayList<String> departments, String countriesAvailable, ArrayList<String> bibliography) {
         this.name = name;
@@ -24,11 +25,18 @@ public class Book implements Comparator<Book> {
         this.departments = departments;
         this.countriesAvailable = countriesAvailable;
         this.bibliography = bibliography;
+        this.isAvailable = true;
     }
+
+
 
     @Override
     public int compare(Book book, Book t1) {
         return 0;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
     }
 
     public String getName() {

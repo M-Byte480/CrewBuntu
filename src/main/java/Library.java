@@ -5,12 +5,20 @@ public class Library {
     private String countryOfOrigin;
     private String[] countriesOfAccess;
     private ArrayList<Book> booksOfCollection;
+    private ArrayList<Subscription> subscriptions;
 
     Library(String name, String countryOfOrigin, String[] countriesOfAccess, ArrayList<Book> books){
         this.booksOfCollection = books;
         this.countriesOfAccess = countriesOfAccess;
         this.countryOfOrigin = countryOfOrigin;
         this.name = name;
+    }
+
+    public boolean borrowBook(Book book){
+        if(booksOfCollection.contains(book)){
+            return book.isAvailable();
+        }
+        return false;
     }
 
     public String getName() {
