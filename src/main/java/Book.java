@@ -95,6 +95,8 @@ public class Book implements Comparator<Book> {
         this.bibliography = bibliography;
     }
 
-
+    public static boolean test(){
+        return true;
+    }
 
 }
