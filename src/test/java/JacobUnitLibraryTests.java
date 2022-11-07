@@ -20,7 +20,7 @@ public class JacobUnitLibraryTests {
         l1.getNewBook("The Bible");
         Library l2 = new Library();
         ul.newLibrary(l2);
-        assertFalse(l2.getNewBook("The Bible"));
+        assertFalse(ul.getBookForLib(l2, "The Bible"));
     }
     
     @Test
@@ -29,10 +29,10 @@ public class JacobUnitLibraryTests {
         University ul = new University();
         Library l1 = new Library();
         ul.newLibrary(l1);
-        l1.subscribe("Christianity Monthly");
+        ul.subscribe(l1, "Christianity Monthly");
         Library l2 = new Library();
         ul.newLibrary(l2);
-        assertFalse(l2.subscribe("Christianity Monthly"));
+        assertFalse(ul.subscribe(l2, "Christianity Monthly"));
     }
     
     @Test
@@ -46,7 +46,7 @@ public class JacobUnitLibraryTests {
         l1.getNewBook("Computer Science for Dummies");
         Library l2 = new Library();
         uwon.newLibrary(l2);
-        assertFalse(l2.getNewBook("Computer Science for Dummies"));
+        assertFalse(uwon.getBookForLib(l2, "Computer Science for Dummies"));
     }
     
     @Test
